@@ -3,9 +3,12 @@ A script to execute C# code on PowerShell installed system.
 (Without .NET SDK)
 
 # Usage
-## Windows
-Run the `Run.bat` or `Run.ps1`  
+> If you want to use it in your project, you only need to include the `Source.cs` file and any version of the `Run` script.  
 
-## Linux and macOS and etc.
+## Windows and Linux and macOS and etc.
 Enter `CrossPlatform` directory  
+Run the `Run.bat` or `Run.sh` or `Run.ps1`  
+
+## GUI Samples (Windows only)
+Enter `WindowsGUI` directory  
 Run the `Run.sh` or `Run.ps1`  
