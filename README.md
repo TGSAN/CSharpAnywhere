@@ -12,3 +12,6 @@ Run the `Run.bat` or `Run.sh` or `Run.ps1`
 ## GUI Samples (Windows only)
 Enter `WindowsGUI` directory  
 Run the `Run.bat` or `Run.ps1`  
+
+# Compatibility
+Windows PowerShell (Best Windows compatibility) or PowerShell Core (Newer C# language version and cross-platform)
