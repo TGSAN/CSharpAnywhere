@@ -11,4 +11,4 @@ Run the `Run.bat` or `Run.sh` or `Run.ps1`
 
 ## GUI Samples (Windows only)
 Enter `WindowsGUI` directory  
-Run the `Run.sh` or `Run.ps1`  
+Run the `Run.bat` or `Run.ps1`  
