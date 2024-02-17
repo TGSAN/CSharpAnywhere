@@ -3,7 +3,7 @@ A script to execute C# code on PowerShell installed system.
 (Without .NET SDK)
 
 # Usage
-> If you want to use it in your project, you only need to include the `Source.cs` file and any version of the `Run` script.  
+> If you want to use it in your project (example: CI/CD or software), you only need to include the `Source.cs` file and any version of the `Run` script.  
 
 ## Windows and Linux and macOS and etc.
 Enter `CrossPlatform` directory  
