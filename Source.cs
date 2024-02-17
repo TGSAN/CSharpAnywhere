@@ -1,7 +1,9 @@
+/// import System.Console;
+/// import System.ComponentModel.Primitives;
+/// import System.ComponentModel.TypeConverter;
+/// import System.Windows.Forms;;
 using System;
 using System.Windows.Forms;
-/// using System.ComponentModel.Primitives;
-/// using System.ComponentModel.TypeConverter;
 
 public class Program
 {
@@ -38,6 +40,7 @@ public class MainForm: Form
 
     private void Button1_Click(object sender, EventArgs e)
     {
-        MessageBox.Show("Hello, World.", "Title");
+        Console.WriteLine("Hello, World!");
+        MessageBox.Show("Hello, World!", "Title");
     }
 }

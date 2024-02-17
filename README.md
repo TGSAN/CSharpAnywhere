@@ -1,7 +1,11 @@
 # CSharpAnywhere
-A script to execute C# code on PowerShell inside Windows.
-(without .net sdk)
+A script to execute C# code on PowerShell installed system.  
+(Without .NET SDK)
 
 # Usage
-Run the `Run.bat` or `Run.ps1`
+## Windows
+Run the `Run.bat` or `Run.ps1`  
 
+## Linux and macOS and etc.
+Enter `CrossPlatform` directory  
+Run the `Run.sh` or `Run.ps1`  
