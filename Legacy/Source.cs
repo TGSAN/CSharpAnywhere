@@ -1,6 +1,3 @@
-/// import System.Console;
-/// import System.ComponentModel.Primitives;
-/// import System.ComponentModel.TypeConverter;
 /// import System.Windows.Forms;
 using System;
 using System.Windows.Forms;
