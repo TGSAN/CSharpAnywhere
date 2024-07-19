@@ -4,7 +4,7 @@ $SCRIPT_PATH = ".\Source.cs"
 $SCRIPT_ENCODING = "utf8"
 
 if ($runcommand -ne "RUN") {
-    Start-Process (Get-Process -Id $PID).Path -WorkingDirectory $PWD.ProviderPath -ArgumentList ($MyInvocation.MyCommand.Path, "RUN") -Wait -NoNewWindow
+    Start-Process (Get-Process -Id $PID).Path -WorkingDirectory $PWD.ProviderPath -ArgumentList `"$($MyInvocation.MyCommand.Path)`", `"RUN`" -Wait -NoNewWindow
 } else {
     $source = "";
     Get-Content -Encoding $SCRIPT_ENCODING -Path $SCRIPT_PATH | ForEach-Object { $source = $source + $_ + "`n" };
